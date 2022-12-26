@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "noResolve": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "isolatedModules": false,
+    "lib": [
+      "dom",
+      "es2015.promise",
+      "es5",
+      "es6"
+    ],
+    "baseUrl":"src",
+    "paths": {
+      "@/*": ["*"],
+      "@interfaces": ["interfaces/*"]
+    },
+    "types": [
+      "babylonjs",
+      "babylonjs-gui",
+      "babylonjs-materials"
+    ],
+    "declaration": true,
+    "outDir": "./"
+  },
+  "files": [
+    "./src/index.ts"
+  ]
+}
