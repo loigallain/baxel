@@ -9,6 +9,7 @@
     "sourceMap": true,
     "experimentalDecorators": true,
     "isolatedModules": false,
+    "useDefineForClassFields": true,
     "lib": [
       "dom",
       "es2015.promise",
@@ -17,8 +18,14 @@
     ],
     "baseUrl":"src",
     "paths": {
-      "@/*": ["*"],
-      "@interfaces": ["interfaces/*"]
+      "@interfaces/*": ["interfaces/*"],
+      "@utils/*": ["utils/*"],
+      "@engine/*": ["engine/*"],
+      "@world/*": ["world/*"],
+      "@player/*": ["player/*"],
+      "@ui/*": ["ui/*"],
+      
+
     },
     "types": [
       "babylonjs",
@@ -26,7 +33,7 @@
       "babylonjs-materials"
     ],
     "declaration": true,
-    "outDir": "./"
+    "outDir": "./build/types"
   },
   "files": [
     "./src/index.ts"

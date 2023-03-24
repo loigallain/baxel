@@ -1,5 +1,5 @@
-import { Scene } from "babylonjs";
-import * as WORLD_DEF from '@/interface/World_def';
+ import { Scene } from "babylonjs";
+import * as WORLD_DEF from '@interfaces/World_def';
 
 
 export interface I_Engine {

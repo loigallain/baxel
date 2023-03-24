@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <style>
+            html,
+            body {
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+
+            #renderCanvas {
+                width: 100%;
+                height: 100%;
+                touch-action: none;
+            }
+            #ui {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                z-index: 1;
+                margin: 5px;
+                padding: 0;
+                touch-action: none;
+                pointer-events: none;
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        <canvas id="renderCanvas"></canvas>
+        <div id="ui">
+            <h1> ceci est un test d'interface</h1>
+        </div>
+        <script src="./dist/index.js"></script>
+    </body>
+
+</html>

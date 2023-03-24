@@ -1,0 +1,19 @@
+[
+   
+    {
+      "name": "PluginA",
+      "params": {
+        "param1": 10,
+        "param2": "hello"
+      }
+    },
+    {
+      "name": "PluginB",
+      "params": {
+        "param1": 20,
+        "param2": "world"
+      }
+    }
+
+  ]
+  
